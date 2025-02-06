@@ -1,0 +1,955 @@
+2025-01-04 22:28:52,435 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-04 22:28:54,516 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-04 22:28:54,539 - WARNING -  * Debugger is active!
+2025-01-04 22:28:54,542 - INFO -  * Debugger PIN: 286-014-303
+2025-01-04 22:29:06,605 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-04 22:29:08,712 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-04 22:29:08,769 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-04 22:29:08,769 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-04 22:29:08,769 - INFO -  * Restarting with stat
+2025-01-04 22:29:09,396 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-04 22:29:11,492 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-04 22:29:11,515 - WARNING -  * Debugger is active!
+2025-01-04 22:29:11,519 - INFO -  * Debugger PIN: 286-014-303
+2025-01-04 22:29:16,372 - INFO - Inizio procedura di login.
+2025-01-04 22:29:16,372 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-04 22:29:16,430 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-04 22:29:16,435 - INFO - 127.0.0.1 - - [04/Jan/2025 22:29:16] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-04 22:29:29,887 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-04 22:29:29,943 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-04 22:29:29,950 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-04 22:29:30,001 - DEBUG - https://localhost:8443 "GET /realms/system-security/protocol/openid-connect/certs HTTP/11" 200 2965
+2025-01-04 22:29:30,012 - INFO - Login completato con successo per l'utente.
+2025-01-04 22:29:30,015 - INFO - 127.0.0.1 - - [04/Jan/2025 22:29:30] "[32mGET /callback?state=sATipPUjfuwIMLYOoodFmLbfuAxYHS&session_state=6526d659-9cc3-45ad-b8b5-03d4f6a4ace4&iss=https://localhost:8443/realms/system-security&code=b68a06dc-f435-41d8-9ab7-a75feee4dfe8.6526d659-9cc3-45ad-b8b5-03d4f6a4ace4.1ea4e258-0db2-4c63-b294-ee203d77fd65 HTTP/1.1[0m" 302 -
+2025-01-04 22:29:30,141 - DEBUG - Accesso alla home page.
+2025-01-04 22:29:30,145 - INFO - 127.0.0.1 - - [04/Jan/2025 22:29:30] "GET / HTTP/1.1" 200 -
+2025-01-04 22:29:39,112 - DEBUG - Utente autenticato con successo.
+2025-01-04 22:29:39,113 - DEBUG - Ruoli utente: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-04 22:29:39,113 - DEBUG - Roles recuperati: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-04 22:29:39,114 - WARNING - Tentativo di accesso non autorizzato alla pagina admin.
+2025-01-04 22:29:39,114 - INFO - 127.0.0.1 - - [04/Jan/2025 22:29:39] "[31m[1mGET /admin-page HTTP/1.1[0m" 403 -
+2025-01-04 22:29:45,331 - DEBUG - Utente autenticato con successo.
+2025-01-04 22:29:45,332 - INFO - Logout completato.
+2025-01-04 22:29:45,334 - INFO - 127.0.0.1 - - [04/Jan/2025 22:29:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-04 22:29:45,966 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-04 22:29:45,967 - INFO - 127.0.0.1 - - [04/Jan/2025 22:29:45] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-04 22:29:46,226 - DEBUG - Accesso alla home page.
+2025-01-04 22:29:46,228 - INFO - 127.0.0.1 - - [04/Jan/2025 22:29:46] "GET / HTTP/1.1" 200 -
+2025-01-04 22:35:40,552 - INFO -  * Detected change in 'C:\\Users\\flavi\\Desktop\\SS\\web app\\app\\flask-authlib\\server.py', reloading
+2025-01-04 22:35:40,717 - INFO -  * Restarting with stat
+2025-01-04 22:35:41,474 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-04 22:35:43,585 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-04 22:35:43,608 - WARNING -  * Debugger is active!
+2025-01-04 22:35:43,613 - INFO -  * Debugger PIN: 286-014-303
+2025-01-05 12:23:11,782 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-05 12:23:13,894 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-05 12:23:13,997 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-05 12:23:13,997 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-05 12:23:14,001 - INFO -  * Restarting with stat
+2025-01-05 12:23:14,612 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-05 12:23:16,683 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-05 12:23:16,705 - WARNING -  * Debugger is active!
+2025-01-05 12:23:16,713 - INFO -  * Debugger PIN: 286-014-303
+2025-01-05 12:23:25,879 - DEBUG - Accesso alla home page.
+2025-01-05 12:23:25,889 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:25] "GET / HTTP/1.1" 200 -
+2025-01-05 12:23:26,106 - DEBUG - Utente non autenticato.
+2025-01-05 12:23:26,107 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:23:26,109 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:26] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2025-01-05 12:23:26,727 - INFO - Inizio procedura di login.
+2025-01-05 12:23:26,729 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-05 12:23:26,921 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-05 12:23:26,928 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:26] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:23:27,244 - INFO - Inizio procedura di login.
+2025-01-05 12:23:27,247 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:27] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:23:32,738 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-05 12:23:32,815 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-05 12:23:32,821 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-05 12:23:32,888 - DEBUG - https://localhost:8443 "GET /realms/system-security/protocol/openid-connect/certs HTTP/11" 200 2965
+2025-01-05 12:23:32,933 - INFO - Login completato con successo per l'utente.
+2025-01-05 12:23:32,935 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:32] "[32mGET /callback?state=3p8cKBKiXMtcl5nJSVoHYQiPlvqjqO&session_state=22b96c34-6a46-49db-bebc-810f65df9c5f&iss=https://localhost:8443/realms/system-security&code=b47c3754-b51e-41ad-a79c-5c44ce2eeaf5.22b96c34-6a46-49db-bebc-810f65df9c5f.f1ac7a38-ee3e-4ca5-b650-6abe966ab1b6 HTTP/1.1[0m" 302 -
+2025-01-05 12:23:33,005 - DEBUG - Accesso alla home page.
+2025-01-05 12:23:33,006 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:33] "GET / HTTP/1.1" 200 -
+2025-01-05 12:23:33,569 - DEBUG - Utente autenticato con successo.
+2025-01-05 12:23:33,570 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-05 12:23:35,517 - DEBUG - Utente autenticato con successo.
+2025-01-05 12:23:35,519 - DEBUG - Ruoli utente: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-05 12:23:35,519 - DEBUG - Roles recuperati: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-05 12:23:35,520 - WARNING - Tentativo di accesso non autorizzato alla pagina admin.
+2025-01-05 12:23:35,521 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:35] "[31m[1mGET /admin-page HTTP/1.1[0m" 403 -
+2025-01-05 12:23:37,995 - DEBUG - Utente autenticato con successo.
+2025-01-05 12:23:37,996 - INFO - Logout completato.
+2025-01-05 12:23:37,997 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-05 12:23:38,141 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-05 12:23:38,142 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:38] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-05 12:23:38,782 - DEBUG - Accesso alla home page.
+2025-01-05 12:23:38,782 - INFO - 127.0.0.1 - - [05/Jan/2025 12:23:38] "GET / HTTP/1.1" 200 -
+2025-01-05 12:25:29,550 - DEBUG - Accesso alla home page.
+2025-01-05 12:25:29,551 - INFO - 127.0.0.1 - - [05/Jan/2025 12:25:29] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:34,402 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:34,405 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:34] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:34,986 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:34,988 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:34,996 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:34] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:35,000 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:35,002 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:35] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:35,017 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:35,018 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:35,019 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:35] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:35,115 - INFO - Inizio procedura di login.
+2025-01-05 12:31:35,169 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:35] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,199 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,199 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,211 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /6233220945059123221 HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,230 - INFO - Inizio procedura di login.
+2025-01-05 12:31:47,234 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,314 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,318 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,318 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /1983325806575653939 HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,327 - INFO - Inizio procedura di login.
+2025-01-05 12:31:47,335 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,413 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,413 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,413 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /WEB-INF/web.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,431 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:47,433 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "GET /?-s HTTP/1.1" 200 -
+2025-01-05 12:31:47,446 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,447 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,448 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /robots.txt?-s HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,459 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,460 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,461 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /sitemap.xml?-s HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,466 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,467 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,468 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /WEB-INF/applicationContext.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,483 - INFO - Inizio procedura di login.
+2025-01-05 12:31:47,490 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /login?-s HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,531 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,532 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,533 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,543 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,544 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,546 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mPOST /login?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,559 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,559 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,561 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,579 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,580 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,582 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,588 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,590 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,592 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mPOST /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,598 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,599 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,600 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mPOST /login?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,609 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,610 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,611 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mPOST /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,618 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,620 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,621 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mPOST /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,700 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:47,702 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:47,716 - INFO - Inizio procedura di login.
+2025-01-05 12:31:47,720 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,729 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,730 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,731 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:47,742 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:47,743 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:47,745 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:47] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,047 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,047 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,047 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET ?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,049 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,053 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,061 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,062 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,063 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /robots.txt?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,074 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,075 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,076 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /sitemap.xml?class.module.classLoader.DefaultAssertionStatus=nonsense HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,080 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,082 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,086 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,089 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,094 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,097 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,125 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,126 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,127 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,143 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,145 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,166 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,167 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,168 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,187 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,188 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,192 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mPOST /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,198 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,201 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,212 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,219 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,230 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,231 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,233 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mPOST /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,258 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,261 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,390 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,391 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,391 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /latest/meta-data/ HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,441 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:48,443 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:48,455 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,456 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,458 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login/ HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,475 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,476 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,478 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /robots.txt/ HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,491 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,492 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,494 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /sitemap.xml/ HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,499 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,502 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,509 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,512 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,519 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,522 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,652 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,652 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,654 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /elmah.axd HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,669 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,670 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,672 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /trace.axd HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,705 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,707 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,708 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /.htaccess HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,740 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,742 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,743 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /.env HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,807 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,808 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,809 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /lfm.php HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,825 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,826 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,831 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /actuator/health HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,833 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,835 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,836 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /.idea/WebServers.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,849 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,855 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,867 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,868 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,869 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /config/databases.yml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,894 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,895 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,896 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /config/database.yml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,918 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,918 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,919 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /.git/config HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,939 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,942 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,944 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /actuator/health HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,956 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,957 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,958 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /.svn/entries HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,964 - INFO - Inizio procedura di login.
+2025-01-05 12:31:48,968 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:48,983 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:48,984 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:48,984 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:48] "[32mGET /.svn/wc.db HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,009 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,011 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,012 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /CVS/root HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,033 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,034 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,036 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /server-status HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,059 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,060 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,065 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /core HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,093 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,094 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,095 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /sftp-config.json HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,116 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,118 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,120 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /WS_FTP.ini HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,139 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,139 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,140 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /ws_ftp.ini HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,159 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,160 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,160 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /WS_FTP.INI HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,179 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,179 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,180 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /filezilla.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,198 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,199 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,200 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /sitemanager.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,220 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,220 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,221 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /FileZilla.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,238 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,239 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,240 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /winscp.ini HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,258 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,260 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,261 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /WinSCP.ini HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,281 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,282 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,284 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /.DS_Store HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,305 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,305 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,306 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /.php_cs.cache HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,328 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,328 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,329 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /DEADJOE HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,348 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,349 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,350 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /sites/default/private/files/backup_migrate/scheduled/test.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,366 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,366 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,367 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /app/etc/local.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,380 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,381 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,382 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /server.key HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,396 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,396 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,397 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /privatekey.key HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,412 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,412 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,413 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /myserver.key HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,429 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,430 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,430 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /key.pem HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,446 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,447 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,447 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /id_rsa HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,463 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,464 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,465 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /id_dsa HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,488 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,488 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,488 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /.ssh/id_rsa HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,502 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,502 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,503 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /.ssh/id_dsa HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,516 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,516 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,517 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /adminer.php HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,535 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,537 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,540 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /vb_test.php HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,563 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,565 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,566 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /CHANGELOG.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,589 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,590 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,592 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /sites/default/files/.ht.sqlite HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,612 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,613 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,614 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /composer.json HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,632 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,632 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,634 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /composer.lock HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,651 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,651 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,652 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /vim_settings.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,668 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,669 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,670 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /server-info HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,765 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,766 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,766 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /phpinfo.php HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,780 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,781 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,781 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /info.php HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,796 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,796 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,797 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /i.php HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,811 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,811 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,812 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /test.php HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,826 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,827 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,827 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /_wpeprivate/config.json HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,844 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,844 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,845 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /_framework/blazor.boot.json HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,861 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,861 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,862 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /.hg HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,889 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,890 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,891 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /.bzr HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,921 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,922 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,924 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /._darcs HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,949 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:49,950 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:49,951 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "[32mGET /BitKeeper HTTP/1.1[0m" 302 -
+2025-01-05 12:31:49,996 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:49,998 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:49] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,004 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,007 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,019 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,021 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,023 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,032 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,033 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,034 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,040 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,042 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,056 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,059 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,065 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,069 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,083 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,128 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,133 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,135 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,158 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,161 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,200 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,202 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,228 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,231 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,248 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,249 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,250 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,257 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,259 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,259 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,266 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,269 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,280 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,285 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,313 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,316 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,327 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,329 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,339 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,344 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,362 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,364 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,391 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,395 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,423 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,426 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,452 - DEBUG - Accesso alla home page.
+2025-01-05 12:31:50,455 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "GET / HTTP/1.1" 200 -
+2025-01-05 12:31:50,464 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,465 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,466 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,479 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,479 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,481 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,491 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,494 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,501 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,505 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,518 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,524 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,599 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,600 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,601 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,621 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,624 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,632 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,637 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,651 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,665 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,669 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,693 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,700 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,751 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,754 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,756 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,775 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,780 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,798 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,809 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,837 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,838 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,840 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,863 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,866 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,905 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,910 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,943 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,944 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,945 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,966 - INFO - Inizio procedura di login.
+2025-01-05 12:31:50,971 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:50,984 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:50,985 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:50,987 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:50] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,007 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,011 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,027 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,031 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,072 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,075 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,076 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,098 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,103 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,119 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,123 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,142 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,144 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,145 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,166 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,169 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,219 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,224 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,229 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,231 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,233 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,257 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,260 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,283 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,284 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,287 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,306 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,310 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,317 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,325 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,356 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,359 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,360 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,378 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,382 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,411 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,412 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,414 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,423 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,427 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,435 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,440 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,477 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,478 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,479 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,506 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,510 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,532 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,533 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,535 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,555 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,558 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,603 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,605 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,608 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,633 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,640 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,693 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,694 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,695 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,718 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,722 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,750 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,752 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,755 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /sitemap.xml HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,774 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,778 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,821 - DEBUG - Utente non autenticato.
+2025-01-05 12:31:51,822 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-05 12:31:51,823 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /robots.txt HTTP/1.1[0m" 302 -
+2025-01-05 12:31:51,842 - INFO - Inizio procedura di login.
+2025-01-05 12:31:51,845 - INFO - 127.0.0.1 - - [05/Jan/2025 12:31:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-05 12:36:23,551 - DEBUG - Accesso alla home page.
+2025-01-05 12:36:23,554 - INFO - 127.0.0.1 - - [05/Jan/2025 12:36:23] "GET / HTTP/1.1" 200 -
+2025-01-11 18:31:12,549 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:31:14,652 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:31:14,860 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-11 18:31:14,860 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-11 18:31:14,860 - INFO -  * Restarting with stat
+2025-01-11 18:31:15,611 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:31:17,688 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:31:17,715 - WARNING -  * Debugger is active!
+2025-01-11 18:31:17,727 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 18:31:54,420 - DEBUG - Accesso alla home page.
+2025-01-11 18:31:54,427 - INFO - 127.0.0.1 - - [11/Jan/2025 18:31:54] "GET / HTTP/1.1" 200 -
+2025-01-11 18:31:54,659 - DEBUG - Utente non autenticato.
+2025-01-11 18:31:54,660 - WARNING - Tentativo di accesso non autenticato a: None
+2025-01-11 18:31:54,661 - INFO - 127.0.0.1 - - [11/Jan/2025 18:31:54] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2025-01-11 18:31:55,208 - INFO - Inizio procedura di login.
+2025-01-11 18:31:55,208 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:31:56,342 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-11 18:31:56,342 - INFO - 127.0.0.1 - - [11/Jan/2025 18:31:56] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 18:32:01,637 - INFO - Inizio procedura di login.
+2025-01-11 18:32:01,641 - INFO - 127.0.0.1 - - [11/Jan/2025 18:32:01] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 18:32:08,035 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:32:08,205 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-11 18:32:08,210 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:32:08,305 - DEBUG - https://localhost:8443 "GET /realms/system-security/protocol/openid-connect/certs HTTP/11" 200 2965
+2025-01-11 18:32:08,388 - INFO - Login completato con successo per l'utente.
+2025-01-11 18:32:08,390 - INFO - 127.0.0.1 - - [11/Jan/2025 18:32:08] "[32mGET /callback?state=m7AMreFgyVMS5qLWi5aB2v9VhB6aDi&session_state=8a140718-874c-404d-9816-19ad9c8a5d10&iss=https://localhost:8443/realms/system-security&code=4f2349a9-50dc-4392-a9af-4fc046ea21f3.8a140718-874c-404d-9816-19ad9c8a5d10.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 18:32:08,403 - DEBUG - Accesso alla home page.
+2025-01-11 18:32:08,405 - INFO - 127.0.0.1 - - [11/Jan/2025 18:32:08] "GET / HTTP/1.1" 200 -
+2025-01-11 18:32:09,149 - DEBUG - Utente autenticato con successo.
+2025-01-11 18:32:09,150 - INFO - 127.0.0.1 - - [11/Jan/2025 18:32:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-11 18:32:12,238 - DEBUG - Utente autenticato con successo.
+2025-01-11 18:32:12,238 - DEBUG - Ruoli utente: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 18:32:12,238 - DEBUG - Roles recuperati: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 18:32:12,238 - WARNING - Tentativo di accesso non autorizzato alla pagina admin.
+2025-01-11 18:32:12,238 - INFO - 127.0.0.1 - - [11/Jan/2025 18:32:12] "[31m[1mGET /admin-page HTTP/1.1[0m" 403 -
+2025-01-11 18:32:14,685 - DEBUG - Utente autenticato con successo.
+2025-01-11 18:32:14,685 - INFO - Logout completato.
+2025-01-11 18:32:14,685 - INFO - 127.0.0.1 - - [11/Jan/2025 18:32:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 18:32:14,947 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 18:32:14,948 - INFO - 127.0.0.1 - - [11/Jan/2025 18:32:14] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 18:32:15,580 - DEBUG - Accesso alla home page.
+2025-01-11 18:32:15,582 - INFO - 127.0.0.1 - - [11/Jan/2025 18:32:15] "GET / HTTP/1.1" 200 -
+2025-01-11 18:33:10,713 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:33:12,831 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:33:12,918 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-11 18:33:12,919 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-11 18:33:12,923 - INFO -  * Restarting with stat
+2025-01-11 18:33:13,712 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:33:15,806 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:33:15,836 - WARNING -  * Debugger is active!
+2025-01-11 18:33:15,845 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 18:33:18,778 - DEBUG - Accesso alla home page.
+2025-01-11 18:33:18,783 - INFO - 127.0.0.1 - - [11/Jan/2025 18:33:18] "GET / HTTP/1.1" 200 -
+2025-01-11 18:33:20,301 - INFO - Inizio procedura di login.
+2025-01-11 18:33:20,304 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:33:20,375 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-11 18:33:20,384 - INFO - 127.0.0.1 - - [11/Jan/2025 18:33:20] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 18:33:27,097 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:33:27,192 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-11 18:33:27,199 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:33:27,257 - DEBUG - https://localhost:8443 "GET /realms/system-security/protocol/openid-connect/certs HTTP/11" 200 2965
+2025-01-11 18:33:27,312 - INFO - Login completato con successo per l'utente.
+2025-01-11 18:33:27,314 - INFO - 127.0.0.1 - - [11/Jan/2025 18:33:27] "[32mGET /callback?state=fj1Xvw3VYgGDTjb06evN3m8qY58fr6&session_state=6c4c9ae5-918d-4045-9478-c3b4ec5beba3&iss=https://localhost:8443/realms/system-security&code=e6331d6a-a267-4fc3-b568-ae97d3ba8c1c.6c4c9ae5-918d-4045-9478-c3b4ec5beba3.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 18:33:27,367 - DEBUG - Accesso alla home page.
+2025-01-11 18:33:27,369 - INFO - 127.0.0.1 - - [11/Jan/2025 18:33:27] "GET / HTTP/1.1" 200 -
+2025-01-11 18:33:30,884 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:33:31,000 - INFO - 127.0.0.1 - - [11/Jan/2025 18:33:31] "[35m[1mGET /admin-page HTTP/1.1[0m" 500 -
+2025-01-11 18:33:31,313 - INFO - 127.0.0.1 - - [11/Jan/2025 18:33:31] "GET /admin-page?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-11 18:33:31,742 - INFO - 127.0.0.1 - - [11/Jan/2025 18:33:31] "GET /admin-page?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-11 18:33:31,816 - INFO - 127.0.0.1 - - [11/Jan/2025 18:33:31] "GET /admin-page?__debugger__=yes&cmd=resource&f=console.png&s=MmATrN8HTI4ka8eFPwYp HTTP/1.1" 200 -
+2025-01-11 18:34:28,288 - INFO -  * Detected change in 'C:\\Users\\flavi\\Desktop\\SS\\web app\\app\\flask-authlib\\server.py', reloading
+2025-01-11 18:34:28,459 - INFO -  * Restarting with stat
+2025-01-11 18:34:29,283 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:34:31,339 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:34:31,364 - WARNING -  * Debugger is active!
+2025-01-11 18:34:31,370 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 18:34:43,773 - DEBUG - Utente autenticato con successo.
+2025-01-11 18:34:43,773 - DEBUG - Ruoli utente: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 18:34:43,773 - DEBUG - Roles recuperati: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 18:34:43,773 - WARNING - Tentativo di accesso non autorizzato alla pagina admin.
+2025-01-11 18:34:43,773 - INFO - 127.0.0.1 - - [11/Jan/2025 18:34:43] "[31m[1mGET /admin-page HTTP/1.1[0m" 403 -
+2025-01-11 18:34:46,097 - DEBUG - Utente autenticato con successo.
+2025-01-11 18:34:46,097 - INFO - Logout completato.
+2025-01-11 18:34:46,098 - INFO - 127.0.0.1 - - [11/Jan/2025 18:34:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 18:34:46,247 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 18:34:46,248 - INFO - 127.0.0.1 - - [11/Jan/2025 18:34:46] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 18:34:46,856 - DEBUG - Accesso alla home page.
+2025-01-11 18:34:46,860 - INFO - 127.0.0.1 - - [11/Jan/2025 18:34:46] "GET / HTTP/1.1" 200 -
+2025-01-11 18:45:14,516 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:45:16,695 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:45:16,793 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-11 18:45:16,794 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-11 18:45:16,798 - INFO -  * Restarting with stat
+2025-01-11 18:45:17,641 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:45:19,718 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:45:19,737 - WARNING -  * Debugger is active!
+2025-01-11 18:45:19,745 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 18:45:29,391 - INFO - Inizio procedura di login.
+2025-01-11 18:45:29,394 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:45:29,751 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-11 18:45:29,759 - INFO - 127.0.0.1 - - [11/Jan/2025 18:45:29] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 18:45:36,372 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:45:36,568 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-11 18:45:36,575 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:45:36,650 - DEBUG - https://localhost:8443 "GET /realms/system-security/protocol/openid-connect/certs HTTP/11" 200 2965
+2025-01-11 18:45:36,702 - INFO - Login completato con successo per l'utente.
+2025-01-11 18:45:36,703 - INFO - 127.0.0.1 - - [11/Jan/2025 18:45:36] "[32mGET /callback?state=0h2BX9OIIBunQ9iTPwOPY3HYml26z3&session_state=34144478-77f5-4d81-ab54-74eb579b9622&iss=https://localhost:8443/realms/system-security&code=2d741d36-149c-44e2-a3d4-e9e7c4d9b29b.34144478-77f5-4d81-ab54-74eb579b9622.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 18:45:36,714 - DEBUG - Accesso alla home page.
+2025-01-11 18:45:36,719 - INFO - 127.0.0.1 - - [11/Jan/2025 18:45:36] "GET / HTTP/1.1" 200 -
+2025-01-11 18:45:40,737 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:45:40,796 - INFO - 127.0.0.1 - - [11/Jan/2025 18:45:40] "[35m[1mGET /admin-page HTTP/1.1[0m" 500 -
+2025-01-11 18:45:41,133 - INFO - 127.0.0.1 - - [11/Jan/2025 18:45:41] "GET /admin-page?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-11 18:45:41,533 - INFO - 127.0.0.1 - - [11/Jan/2025 18:45:41] "GET /admin-page?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-11 18:45:41,586 - INFO - 127.0.0.1 - - [11/Jan/2025 18:45:41] "GET /admin-page?__debugger__=yes&cmd=resource&f=console.png&s=1b97Z3uz46ojjkkF85t1 HTTP/1.1" 200 -
+2025-01-11 18:45:42,251 - INFO - 127.0.0.1 - - [11/Jan/2025 18:45:42] "GET /admin-page?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-11 18:54:25,056 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:54:27,194 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:54:27,287 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-11 18:54:27,287 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-11 18:54:27,287 - INFO -  * Restarting with stat
+2025-01-11 18:54:28,011 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:54:30,122 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:54:30,149 - WARNING -  * Debugger is active!
+2025-01-11 18:54:30,156 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 18:54:30,982 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:54:32,294 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-11 18:54:32,294 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:54:33,774 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3457
+2025-01-11 18:54:33,790 - INFO - Access token rinnovato con successo.
+2025-01-11 18:54:33,790 - DEBUG - Ruoli utente: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 18:54:33,790 - DEBUG - Roles recuperati: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 18:54:33,790 - WARNING - Tentativo di accesso non autorizzato alla pagina admin.
+2025-01-11 18:54:33,794 - INFO - 127.0.0.1 - - [11/Jan/2025 18:54:33] "[31m[1mGET /admin-page HTTP/1.1[0m" 403 -
+2025-01-11 18:54:35,755 - DEBUG - Utente autenticato con successo.
+2025-01-11 18:54:35,755 - INFO - Logout completato.
+2025-01-11 18:54:35,758 - INFO - 127.0.0.1 - - [11/Jan/2025 18:54:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 18:54:36,750 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 18:54:36,750 - INFO - 127.0.0.1 - - [11/Jan/2025 18:54:36] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 18:54:37,019 - DEBUG - Accesso alla home page.
+2025-01-11 18:54:37,026 - INFO - 127.0.0.1 - - [11/Jan/2025 18:54:37] "GET / HTTP/1.1" 200 -
+2025-01-11 18:58:38,629 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:58:40,734 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:58:40,797 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-11 18:58:40,797 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-11 18:58:40,801 - INFO -  * Restarting with stat
+2025-01-11 18:58:41,489 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:58:43,583 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:58:43,615 - WARNING -  * Debugger is active!
+2025-01-11 18:58:43,622 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 18:58:47,589 - INFO - Inizio procedura di login.
+2025-01-11 18:58:47,593 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:58:47,654 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-11 18:58:47,661 - INFO - 127.0.0.1 - - [11/Jan/2025 18:58:47] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 18:58:53,714 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:58:53,769 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-11 18:58:53,772 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:58:53,837 - DEBUG - https://localhost:8443 "GET /realms/system-security/protocol/openid-connect/certs HTTP/11" 200 2965
+2025-01-11 18:58:53,884 - INFO - Login completato con successo per l'utente.
+2025-01-11 18:58:53,884 - INFO - 127.0.0.1 - - [11/Jan/2025 18:58:53] "[32mGET /callback?state=AVtp8w1zoECeLPU9jE0EdpiWQhJP8s&session_state=38b07972-6f31-4ead-a0bc-83b38b05e739&iss=https://localhost:8443/realms/system-security&code=1e4cb781-a9b0-48a3-87d4-f164f913446f.38b07972-6f31-4ead-a0bc-83b38b05e739.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 18:58:54,534 - DEBUG - Accesso alla home page.
+2025-01-11 18:58:54,534 - INFO - 127.0.0.1 - - [11/Jan/2025 18:58:54] "GET / HTTP/1.1" 200 -
+2025-01-11 18:58:58,026 - DEBUG - Utente autenticato con successo.
+2025-01-11 18:58:58,026 - DEBUG - Ruoli utente: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 18:58:58,026 - DEBUG - Roles recuperati: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 18:58:58,026 - WARNING - Tentativo di accesso non autorizzato alla pagina admin.
+2025-01-11 18:58:58,026 - INFO - 127.0.0.1 - - [11/Jan/2025 18:58:58] "[31m[1mGET /admin-page HTTP/1.1[0m" 403 -
+2025-01-11 18:59:16,836 - INFO -  * Detected change in 'C:\\Users\\flavi\\Desktop\\SS\\web app\\app\\flask-authlib\\server.py', reloading
+2025-01-11 18:59:17,041 - INFO -  * Restarting with stat
+2025-01-11 18:59:18,023 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:59:20,283 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:59:20,306 - WARNING -  * Debugger is active!
+2025-01-11 18:59:20,313 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 18:59:27,005 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 18:59:27,063 - INFO - 127.0.0.1 - - [11/Jan/2025 18:59:27] "[35m[1mGET /logout HTTP/1.1[0m" 500 -
+2025-01-11 18:59:27,248 - INFO - 127.0.0.1 - - [11/Jan/2025 18:59:27] "GET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-11 18:59:27,761 - INFO - 127.0.0.1 - - [11/Jan/2025 18:59:27] "GET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-11 18:59:28,020 - INFO - 127.0.0.1 - - [11/Jan/2025 18:59:28] "GET /logout?__debugger__=yes&cmd=resource&f=console.png&s=rLPZemkITp9GhZGRPU3h HTTP/1.1" 200 -
+2025-01-11 18:59:36,425 - INFO -  * Detected change in 'C:\\Users\\flavi\\Desktop\\SS\\web app\\app\\flask-authlib\\server.py', reloading
+2025-01-11 18:59:36,640 - INFO -  * Restarting with stat
+2025-01-11 18:59:37,551 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 18:59:39,652 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 18:59:39,672 - WARNING -  * Debugger is active!
+2025-01-11 18:59:39,679 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 18:59:41,478 - DEBUG - Utente autenticato con successo.
+2025-01-11 18:59:41,479 - INFO - Logout completato.
+2025-01-11 18:59:41,480 - INFO - 127.0.0.1 - - [11/Jan/2025 18:59:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 18:59:41,722 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 18:59:41,723 - INFO - 127.0.0.1 - - [11/Jan/2025 18:59:41] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 18:59:42,189 - DEBUG - Accesso alla home page.
+2025-01-11 18:59:42,195 - INFO - 127.0.0.1 - - [11/Jan/2025 18:59:42] "GET / HTTP/1.1" 200 -
+2025-01-11 19:13:09,210 - INFO -  * Detected change in 'C:\\Users\\flavi\\Desktop\\SS\\web app\\app\\flask-authlib\\server.py', reloading
+2025-01-11 19:13:09,600 - INFO -  * Restarting with stat
+2025-01-11 19:13:10,766 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 19:13:12,852 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 19:13:12,906 - WARNING -  * Debugger is active!
+2025-01-11 19:13:12,913 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 19:26:41,796 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 19:26:43,916 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 19:26:44,020 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-11 19:26:44,020 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-11 19:26:44,020 - INFO -  * Restarting with stat
+2025-01-11 19:26:45,204 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 19:26:47,287 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 19:26:47,321 - WARNING -  * Debugger is active!
+2025-01-11 19:26:47,329 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 19:26:52,647 - DEBUG - Accesso alla home page.
+2025-01-11 19:26:52,653 - INFO - 127.0.0.1 - - [11/Jan/2025 19:26:52] "GET / HTTP/1.1" 200 -
+2025-01-11 19:26:53,440 - INFO - Inizio procedura di login.
+2025-01-11 19:26:53,450 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 19:26:53,536 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-11 19:26:53,553 - INFO - 127.0.0.1 - - [11/Jan/2025 19:26:53] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 19:26:58,529 - DEBUG - Accesso alla home page.
+2025-01-11 19:26:58,541 - INFO - 127.0.0.1 - - [11/Jan/2025 19:26:58] "GET / HTTP/1.1" 200 -
+2025-01-11 19:27:00,170 - INFO - Inizio procedura di login.
+2025-01-11 19:27:00,173 - INFO - 127.0.0.1 - - [11/Jan/2025 19:27:00] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 19:27:13,805 - INFO - Inizio procedura di login.
+2025-01-11 19:27:13,811 - INFO - 127.0.0.1 - - [11/Jan/2025 19:27:13] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 19:40:51,784 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 19:40:53,875 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 19:40:54,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-11 19:40:54,043 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-11 19:40:54,048 - INFO -  * Restarting with stat
+2025-01-11 19:40:54,867 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 19:40:56,954 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 19:40:57,008 - WARNING -  * Debugger is active!
+2025-01-11 19:40:57,021 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 19:41:01,262 - DEBUG - Accesso alla home page.
+2025-01-11 19:41:01,268 - INFO - 127.0.0.1 - - [11/Jan/2025 19:41:01] "GET / HTTP/1.1" 200 -
+2025-01-11 19:41:11,571 - INFO - Inizio procedura di login.
+2025-01-11 19:41:11,571 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 19:41:11,666 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-11 19:41:11,675 - INFO - 127.0.0.1 - - [11/Jan/2025 19:41:11] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 19:41:18,659 - DEBUG - Accesso alla home page.
+2025-01-11 19:41:18,660 - INFO - 127.0.0.1 - - [11/Jan/2025 19:41:18] "GET / HTTP/1.1" 200 -
+2025-01-11 19:41:28,279 - INFO - Inizio procedura di login.
+2025-01-11 19:41:28,281 - INFO - 127.0.0.1 - - [11/Jan/2025 19:41:28] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 21:15:37,689 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 21:15:39,872 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 21:15:39,967 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-11 21:15:39,967 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-11 21:15:39,967 - INFO -  * Restarting with stat
+2025-01-11 21:15:40,592 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 21:15:42,673 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 21:15:42,695 - WARNING -  * Debugger is active!
+2025-01-11 21:15:42,700 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 21:15:46,681 - DEBUG - Accesso alla home page.
+2025-01-11 21:15:46,686 - INFO - 127.0.0.1 - - [11/Jan/2025 21:15:46] "GET / HTTP/1.1" 200 -
+2025-01-11 21:15:47,870 - INFO - Inizio procedura di login.
+2025-01-11 21:15:47,874 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 21:15:47,987 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-11 21:15:47,995 - INFO - 127.0.0.1 - - [11/Jan/2025 21:15:47] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 21:18:38,905 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 21:18:38,982 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-11 21:18:38,989 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 21:18:39,027 - DEBUG - https://localhost:8443 "GET /realms/system-security/protocol/openid-connect/certs HTTP/11" 200 2965
+2025-01-11 21:18:39,117 - INFO - Login completato con successo per l'utente.
+2025-01-11 21:18:39,119 - INFO - 127.0.0.1 - - [11/Jan/2025 21:18:39] "[32mGET /callback?state=b88VpdvuMjjCzxZ0wa5ZbXKMy4bwUj&session_state=440991ed-d6b7-43f3-9b54-cc08c78aa754&iss=https://localhost:8443/realms/system-security&code=a8d1668a-ae59-4e16-b530-2f6f7efec06e.440991ed-d6b7-43f3-9b54-cc08c78aa754.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 21:18:39,167 - DEBUG - Accesso alla home page.
+2025-01-11 21:18:39,170 - INFO - 127.0.0.1 - - [11/Jan/2025 21:18:39] "GET / HTTP/1.1" 200 -
+2025-01-11 21:18:58,998 - DEBUG - Utente autenticato con successo.
+2025-01-11 21:18:58,998 - INFO - Logout completato.
+2025-01-11 21:18:58,998 - INFO - 127.0.0.1 - - [11/Jan/2025 21:18:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 21:18:59,149 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 21:18:59,149 - INFO - 127.0.0.1 - - [11/Jan/2025 21:18:59] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 21:18:59,679 - DEBUG - Accesso alla home page.
+2025-01-11 21:18:59,685 - INFO - 127.0.0.1 - - [11/Jan/2025 21:18:59] "GET / HTTP/1.1" 200 -
+2025-01-11 21:19:00,922 - INFO - Inizio procedura di login.
+2025-01-11 21:19:00,925 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:00] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 21:19:17,577 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 21:19:17,657 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-11 21:19:17,661 - INFO - Login completato con successo per l'utente.
+2025-01-11 21:19:17,667 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:17] "[32mGET /callback?state=fqoitrMVqludroxQuj0H7UIHf1VjFd&session_state=27c181b0-4334-4ba2-93fa-e70a0ddd2055&iss=https://localhost:8443/realms/system-security&code=4cc721ea-bc93-4da3-b6aa-e91c39e80c6c.27c181b0-4334-4ba2-93fa-e70a0ddd2055.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 21:19:17,836 - DEBUG - Accesso alla home page.
+2025-01-11 21:19:17,837 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:17] "GET / HTTP/1.1" 200 -
+2025-01-11 21:19:32,007 - DEBUG - Utente autenticato con successo.
+2025-01-11 21:19:32,008 - INFO - Logout completato.
+2025-01-11 21:19:32,009 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 21:19:32,157 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 21:19:32,158 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:32] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 21:19:32,690 - DEBUG - Accesso alla home page.
+2025-01-11 21:19:32,700 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:32] "GET / HTTP/1.1" 200 -
+2025-01-11 21:19:34,203 - INFO - Inizio procedura di login.
+2025-01-11 21:19:34,214 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:34] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 21:19:48,517 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 21:19:48,597 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-11 21:19:48,601 - INFO - Login completato con successo per l'utente.
+2025-01-11 21:19:48,604 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:48] "[32mGET /callback?state=JvFslgRgyMSN8FoBIU7DwyYs1rv1ib&session_state=b696b4e8-6783-41ef-8d04-15588cb46306&iss=https://localhost:8443/realms/system-security&code=70073346-5664-42a2-b6d6-c840bf6d437e.b696b4e8-6783-41ef-8d04-15588cb46306.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 21:19:48,775 - DEBUG - Accesso alla home page.
+2025-01-11 21:19:48,777 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:48] "GET / HTTP/1.1" 200 -
+2025-01-11 21:19:54,839 - DEBUG - Utente autenticato con successo.
+2025-01-11 21:19:54,843 - INFO - Logout completato.
+2025-01-11 21:19:54,844 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 21:19:54,974 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 21:19:54,976 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:54] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 21:19:55,523 - DEBUG - Accesso alla home page.
+2025-01-11 21:19:55,526 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:55] "GET / HTTP/1.1" 200 -
+2025-01-11 21:19:57,712 - INFO - Inizio procedura di login.
+2025-01-11 21:19:57,715 - INFO - 127.0.0.1 - - [11/Jan/2025 21:19:57] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 21:20:40,746 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 21:20:40,813 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3525
+2025-01-11 21:20:40,817 - INFO - Login completato con successo per l'utente.
+2025-01-11 21:20:40,819 - INFO - 127.0.0.1 - - [11/Jan/2025 21:20:40] "[32mGET /callback?state=PRCkhz8wc3oRh3ToiRQQEJyrrWJrFu&session_state=36cfa2b5-65ec-43e9-a538-76232363f46c&iss=https://localhost:8443/realms/system-security&code=d8945203-e0b9-4b95-b50e-18ad413858c5.36cfa2b5-65ec-43e9-a538-76232363f46c.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 21:20:41,017 - DEBUG - Accesso alla home page.
+2025-01-11 21:20:41,019 - INFO - 127.0.0.1 - - [11/Jan/2025 21:20:41] "GET / HTTP/1.1" 200 -
+2025-01-11 21:20:45,095 - DEBUG - Utente autenticato con successo.
+2025-01-11 21:20:45,099 - DEBUG - Ruoli utente: ['offline_access', 'AdminRole', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 21:20:45,099 - DEBUG - Roles recuperati: ['offline_access', 'AdminRole', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 21:20:45,099 - INFO - Accesso consentito alla pagina admin.
+2025-01-11 21:20:45,105 - INFO - 127.0.0.1 - - [11/Jan/2025 21:20:45] "GET /admin-page HTTP/1.1" 200 -
+2025-01-11 21:22:02,993 - DEBUG - Utente autenticato con successo.
+2025-01-11 21:22:02,995 - INFO - Logout completato.
+2025-01-11 21:22:02,998 - INFO - 127.0.0.1 - - [11/Jan/2025 21:22:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 21:22:03,129 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 21:22:03,131 - INFO - 127.0.0.1 - - [11/Jan/2025 21:22:03] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 21:22:03,691 - DEBUG - Accesso alla home page.
+2025-01-11 21:22:03,693 - INFO - 127.0.0.1 - - [11/Jan/2025 21:22:03] "GET / HTTP/1.1" 200 -
+2025-01-11 21:29:30,034 - INFO - Inizio procedura di login.
+2025-01-11 21:29:30,050 - INFO - 127.0.0.1 - - [11/Jan/2025 21:29:30] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 21:31:54,233 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 21:31:54,316 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-11 21:31:54,325 - INFO - Login completato con successo per l'utente.
+2025-01-11 21:31:54,327 - INFO - 127.0.0.1 - - [11/Jan/2025 21:31:54] "[32mGET /callback?state=bTaIfw1pdTZPWP0lw0AZG9FbpZZeLp&session_state=1225bacb-2562-48c2-957a-8d49d6f58a05&iss=https://localhost:8443/realms/system-security&code=22cd4bfd-4bdd-426b-8e62-d41ff88d7dee.1225bacb-2562-48c2-957a-8d49d6f58a05.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 21:31:54,484 - DEBUG - Accesso alla home page.
+2025-01-11 21:31:54,486 - INFO - 127.0.0.1 - - [11/Jan/2025 21:31:54] "GET / HTTP/1.1" 200 -
+2025-01-11 21:31:56,885 - DEBUG - Utente autenticato con successo.
+2025-01-11 21:31:56,894 - INFO - Logout completato.
+2025-01-11 21:31:56,896 - INFO - 127.0.0.1 - - [11/Jan/2025 21:31:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 21:31:57,018 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 21:31:57,019 - INFO - 127.0.0.1 - - [11/Jan/2025 21:31:57] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 21:31:57,647 - DEBUG - Accesso alla home page.
+2025-01-11 21:31:57,650 - INFO - 127.0.0.1 - - [11/Jan/2025 21:31:57] "GET / HTTP/1.1" 200 -
+2025-01-11 21:57:24,478 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 21:57:26,659 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 21:57:26,734 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://localhost:3000
+2025-01-11 21:57:26,735 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-11 21:57:26,739 - INFO -  * Restarting with stat
+2025-01-11 21:57:27,330 - DEBUG - Starting new HTTPS connection (1): localhost:8200
+2025-01-11 21:57:29,425 - DEBUG - https://localhost:8200 "GET /v1/secret/data/system_security_app HTTP/11" 200 414
+2025-01-11 21:57:29,447 - WARNING -  * Debugger is active!
+2025-01-11 21:57:29,454 - INFO -  * Debugger PIN: 286-014-303
+2025-01-11 21:58:35,642 - DEBUG - Accesso alla home page.
+2025-01-11 21:58:35,646 - INFO - 127.0.0.1 - - [11/Jan/2025 21:58:35] "GET / HTTP/1.1" 200 -
+2025-01-11 22:01:09,988 - INFO - Inizio procedura di login.
+2025-01-11 22:01:09,991 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 22:01:10,383 - DEBUG - https://localhost:8443 "GET /realms/system-security/.well-known/openid-configuration HTTP/11" 200 6418
+2025-01-11 22:01:10,393 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:10] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 22:01:23,542 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 22:01:23,679 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3498
+2025-01-11 22:01:23,686 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 22:01:23,764 - DEBUG - https://localhost:8443 "GET /realms/system-security/protocol/openid-connect/certs HTTP/11" 200 2965
+2025-01-11 22:01:23,816 - INFO - Login completato con successo per l'utente.
+2025-01-11 22:01:23,820 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:23] "[32mGET /callback?state=qBfvXeIou8FMrmdOmsRQzh8p24Iijv&session_state=7917b714-9e2a-4d50-a12d-265acf84bef3&iss=https://localhost:8443/realms/system-security&code=07c6dafc-d5b5-4137-a0d5-8dee0dbde37b.7917b714-9e2a-4d50-a12d-265acf84bef3.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 22:01:23,836 - DEBUG - Accesso alla home page.
+2025-01-11 22:01:23,839 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:23] "GET / HTTP/1.1" 200 -
+2025-01-11 22:01:27,947 - DEBUG - Utente autenticato con successo.
+2025-01-11 22:01:27,947 - DEBUG - Ruoli utente: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 22:01:27,948 - DEBUG - Roles recuperati: ['UserRole', 'offline_access', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 22:01:27,949 - WARNING - Tentativo di accesso non autorizzato alla pagina admin.
+2025-01-11 22:01:27,950 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:27] "[31m[1mGET /admin-page HTTP/1.1[0m" 403 -
+2025-01-11 22:01:29,751 - DEBUG - Utente autenticato con successo.
+2025-01-11 22:01:29,752 - INFO - Logout completato.
+2025-01-11 22:01:29,754 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 22:01:30,377 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 22:01:30,378 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:30] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 22:01:30,642 - DEBUG - Accesso alla home page.
+2025-01-11 22:01:30,644 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:30] "GET / HTTP/1.1" 200 -
+2025-01-11 22:01:32,594 - INFO - Inizio procedura di login.
+2025-01-11 22:01:32,596 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:32] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-11 22:01:43,997 - DEBUG - Starting new HTTPS connection (1): localhost:8443
+2025-01-11 22:01:44,077 - DEBUG - https://localhost:8443 "POST /realms/system-security/protocol/openid-connect/token HTTP/11" 200 3525
+2025-01-11 22:01:44,080 - INFO - Login completato con successo per l'utente.
+2025-01-11 22:01:44,084 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:44] "[32mGET /callback?state=gyDwgISB4f0Uu0BgUiGWPW44J9S2is&session_state=e8a4b346-1e5a-4fd8-aa6d-5fc4b877ca7a&iss=https://localhost:8443/realms/system-security&code=1a707508-f183-4b37-809c-4c48464df63b.e8a4b346-1e5a-4fd8-aa6d-5fc4b877ca7a.6e402ee9-03a2-408a-8b5f-45c1c0abfccc HTTP/1.1[0m" 302 -
+2025-01-11 22:01:44,242 - DEBUG - Accesso alla home page.
+2025-01-11 22:01:44,243 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:44] "GET / HTTP/1.1" 200 -
+2025-01-11 22:01:48,093 - DEBUG - Utente autenticato con successo.
+2025-01-11 22:01:48,094 - DEBUG - Ruoli utente: ['offline_access', 'AdminRole', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 22:01:48,094 - DEBUG - Roles recuperati: ['offline_access', 'AdminRole', 'uma_authorization', 'default-roles-system-security']
+2025-01-11 22:01:48,094 - INFO - Accesso consentito alla pagina admin.
+2025-01-11 22:01:48,097 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:48] "GET /admin-page HTTP/1.1" 200 -
+2025-01-11 22:01:50,339 - DEBUG - Utente autenticato con successo.
+2025-01-11 22:01:50,340 - INFO - Logout completato.
+2025-01-11 22:01:50,342 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-11 22:01:50,962 - INFO - Utente reindirizzato alla pagina di logged out.
+2025-01-11 22:01:50,963 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:50] "[32mGET /loggedout HTTP/1.1[0m" 302 -
+2025-01-11 22:01:51,226 - DEBUG - Accesso alla home page.
+2025-01-11 22:01:51,227 - INFO - 127.0.0.1 - - [11/Jan/2025 22:01:51] "GET / HTTP/1.1" 200 -
